@@ -9,5 +9,5 @@ const middlerWare =[thunk]
 
 
 
-const store = createStore(reducer,composeWithDevTools(applyMiddleware(...middlerWare)))
+ export const store = createStore(reducer,composeWithDevTools(applyMiddleware(...middlerWare)))
 
